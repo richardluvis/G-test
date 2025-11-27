@@ -7,21 +7,25 @@ import { PortfolioMode, Project, Skill, Experience } from './types';
  */
 
 export const SOCIAL_LINKS = {
-  github: "https://github.com/yourusername",
-  linkedin: "https://linkedin.com/in/yourusername",
-  whatsapp: "https://wa.me/1234567890", // Replace with real number
+  github: "https://github.com/richardluvis",
+  linkedin: "https://linkedin.com/in/richadlopez",
+  whatsapp: "https://wa.me/1234567890", 
   email: "contact@example.com"
 };
 
 // --- DEVELOPER DATA ---
 
 export const DEV_SKILLS: Skill[] = [
-  { name: 'React.js / Next.js', level: 95, category: 'frontend' },
+  { name: 'React.js / Next.js', level: 90, category: 'frontend' },
   { name: 'TypeScript', level: 90, category: 'frontend' },
+  { name: 'Boostrap', level: 95, category: 'frontend' },
   { name: 'Node.js', level: 85, category: 'backend' },
   { name: 'Vite.js', level: 80, category: 'backend' },
-  { name: 'Tailwind CSS', level: 95, category: 'frontend' },
+  { name: 'Python', level: 95, category: 'backend' },
   { name: 'MySQL', level: 75, category: 'backend' },
+  { name: 'Java', level: 70, category: 'backend' },
+  { name: 'C++', level: 65, category: 'backend' },
+  { name: 'APIs', level: 90, category: 'backend' },
 ];
 
 export const DEV_PROJECTS: Project[] = [

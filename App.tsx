@@ -43,7 +43,7 @@ const App: React.FC = () => {
               {isDev ? <Terminal size={24} /> : <Cpu size={24} />}
             </div>
             <span className="font-bold text-lg tracking-tight hidden sm:block">
-              Richard<span className={accentText}>Lopez</span>
+              Richard<span className={accentText}>Dev</span>
             </span>
           </div>
 
@@ -85,7 +85,7 @@ const App: React.FC = () => {
 
             <p className="text-xl text-slate-400 max-w-2xl mx-auto mb-10 leading-relaxed">
               {isDev 
-                ? "Specialized in React, Next.js ecosystem, and modern web performance. I craft pixel-perfect, accessible, and scalable applications."
+                ? "Specialized in front-end development, with strong experience using modern technologies such as React, Next.js, Node.js, Vite, and a wide range of component libraries and UI frameworks. I build high-performance, responsive, and accessible web applications following best practices in software architecture, component modularity, and performance optimization. My approach focuses on creating scalable interfaces with a high level of detail, ensuring maintainability, usability, and long-term product growth for businesses. "
                 : "Expert in Linux systems, Cloud architectures (AWS/Azure), and automated DevOps pipelines. I ensure 99.99% reliability and security."
               }
             </p>

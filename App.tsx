@@ -43,7 +43,7 @@ const App: React.FC = () => {
               {isDev ? <Terminal size={24} /> : <Cpu size={24} />}
             </div>
             <span className="font-bold text-lg tracking-tight hidden sm:block">
-              John<span className={accentText}>Doe</span>
+              Richard<span className={accentText}>Lopez</span>
             </span>
           </div>
 
@@ -208,7 +208,7 @@ const App: React.FC = () => {
       <footer className="bg-slate-900 border-t border-slate-800 py-12 mt-12">
         <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="text-center md:text-left">
-            <h3 className="text-xl font-bold text-white mb-2">John Doe</h3>
+            <h3 className="text-xl font-bold text-white mb-2">Richrard Lopez</h3>
             <p className="text-slate-500 text-sm">
               &copy; {new Date().getFullYear()} {isDev ? 'Engineering the Web' : 'Powering the Infrastructure'}.
             </p>

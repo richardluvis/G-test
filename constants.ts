@@ -19,9 +19,9 @@ export const DEV_SKILLS: Skill[] = [
   { name: 'React.js / Next.js', level: 95, category: 'frontend' },
   { name: 'TypeScript', level: 90, category: 'frontend' },
   { name: 'Node.js', level: 85, category: 'backend' },
-  { name: 'GraphQL', level: 80, category: 'backend' },
+  { name: 'Vite.js', level: 80, category: 'backend' },
   { name: 'Tailwind CSS', level: 95, category: 'frontend' },
-  { name: 'PostgreSQL', level: 75, category: 'backend' },
+  { name: 'MySQL', level: 75, category: 'backend' },
 ];
 
 export const DEV_PROJECTS: Project[] = [

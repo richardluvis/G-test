@@ -31,15 +31,15 @@ export const DEV_SKILLS: Skill[] = [
 export const DEV_PROJECTS: Project[] = [
   {
     id: 'd1',
-    title: 'E-Commerce Dashboard',
+    title: 'Landing Page Premium',
     description: 'A comprehensive analytics dashboard for online retailers featuring real-time data visualization using Recharts and Next.js SSR.',
     technologies: ['Next.js', 'React', 'Tremor', 'Supabase'],
-    image: 'https://picsum.photos/600/400?random=1',
+    image: '/src/landingPage.png',
     type: PortfolioMode.DEVELOPER
   },
   {
     id: 'd2',
-    title: 'SaaS Landing Page',
+    title: 'Professional Website',
     description: 'High-conversion landing page with complex framer-motion animations and optimized Core Web Vitals.',
     technologies: ['React', 'Tailwind', 'Framer Motion'],
     image: 'https://picsum.photos/600/400?random=2',
@@ -58,27 +58,23 @@ export const DEV_PROJECTS: Project[] = [
 export const DEV_EXPERIENCE: Experience[] = [
   {
     id: 'de1',
-    role: 'Senior Frontend Engineer',
-    company: 'TechFlow Solutions',
-    period: '2021 - Present',
+    role: 'Software developer',
+    company: 'Accepetrol SAS',
+    period: '2023 - 2024',
     description: [
-      'Led migration of legacy monolith to Next.js micro-frontends.',
-      'Improved site performance score by 40% using SSR and image optimization.',
-      'Mentored junior developers in React best practices.'
+      'Built a responsive web application using HTML5, CSS, AJAX, Node.js and Vite, with a clear folder structure and optimized image assets.',
+      'Developed front-end features and asynchronous client-server communication using AJAX and Node.js.',
+      'Implemented performance and accessibility improvements for a fast, maintainable website.',
+      'Designed and implemented the site structure using HTML5 for semantic markup and CSS for responsive, accessible styling.',
+      'Configured the project with Vite for fast development builds and efficient module hot-reloading.',
+      'Developed a lightweight Node.js backend to serve assets, handle API endpoints, and manage simple server-side logic.',
+      'Optimized and compressed images, used proper formats and lazy loading to reduce page weight and improve load times.',
+      'Implemented progressive enhancement and accessibility best practices (semantic HTML, ARIA attributes, keyboard navigation).',
+      'Wrote modular, reusable JavaScript and CSS components to accelerate future feature development.',
+      'Organized the repository with a clear folder structure to improve maintainability and handoffs.'
     ],
     type: PortfolioMode.DEVELOPER
   },
-  {
-    id: 'de2',
-    role: 'Full Stack Developer',
-    company: 'Creative Agency X',
-    period: '2019 - 2021',
-    description: [
-      'Developed 15+ client websites using MERN stack.',
-      'Integrated payment gateways (Stripe, PayPal) for e-commerce clients.'
-    ],
-    type: PortfolioMode.DEVELOPER
-  }
 ];
 
 // --- ENGINEER DATA ---

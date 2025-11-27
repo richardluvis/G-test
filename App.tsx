@@ -190,7 +190,7 @@ const App: React.FC = () => {
         <Section id="projects" className="bg-slate-800/20">
           <div className="flex items-center gap-3 mb-12">
             {isDev ? <Globe className="text-blue-500" /> : <Server className="text-emerald-500" />}
-            <h2 className="text-3xl font-bold">Featured Projects</h2>
+            <h2 className="text-3xl font-bold">Products & Services</h2>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -210,14 +210,14 @@ const App: React.FC = () => {
           <div className="text-center md:text-left">
             <h3 className="text-xl font-bold text-white mb-2">Richrard Lopez</h3>
             <p className="text-slate-500 text-sm">
-              &copy; {new Date().getFullYear()} {isDev ? 'Engineering the Web' : 'Powering the Infrastructure'}.
+              &copy; {new Date().getFullYear()} {isDev ? 'All rights reserved' : 'Powering the Infrastructure'}.
             </p>
           </div>
           
           <div className="flex gap-6">
              <button onClick={() => setIsContactOpen(true)} className="text-slate-400 hover:text-white transition-colors text-sm">Contact</button>
-             <a href="#" className="text-slate-400 hover:text-white transition-colors text-sm">LinkedIn</a>
-             <a href="#" className="text-slate-400 hover:text-white transition-colors text-sm">GitHub</a>
+             <a href="https://linkedin.com/in/richadlopez" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white transition-colors text-sm">LinkedIn</a>
+             <a href="https://github.com/richardluvis" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white transition-colors text-sm">GitHub</a>
           </div>
         </div>
       </footer>

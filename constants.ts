@@ -80,12 +80,9 @@ export const DEV_EXPERIENCE: Experience[] = [
 // --- ENGINEER DATA ---
 
 export const SYS_SKILLS: Skill[] = [
-  { name: 'Linux Administration', level: 90, category: 'tools' },
-  { name: 'AWS / Azure', level: 85, category: 'cloud' },
-  { name: 'Docker & Kubernetes', level: 80, category: 'tools' },
-  { name: 'Network Security', level: 75, category: 'network' },
-  { name: 'CI/CD Pipelines', level: 85, category: 'tools' },
-  { name: 'Bash / Python Scripting', level: 80, category: 'backend' },
+  { name: 'Cumputers', level: 90, category: 'tools' },
+  { name: 'Printers', level: 75, category: 'tools' },
+  { name: 'Sistems', level: 80, category: 'tools' },
 ];
 
 export const SYS_PROJECTS: Project[] = [
@@ -128,7 +125,8 @@ export const SYS_EXPERIENCE: Experience[] = [
       'Development of solutions using HTML5, JavaScript, Node.js, Vite, Bootstrap, and React.',
       'Collaboration in development teams following the Scrum methodology.',
       'Version control management with GitHub.',
-      'Proficient in working with the DOM.'
+      'Multi-role teamwork as a Scrum Master',
+      'Proficient in working with the DOM.',
     ],
     type: PortfolioMode.ENGINEER
   }

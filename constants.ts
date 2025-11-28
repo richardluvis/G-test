@@ -32,8 +32,8 @@ export const DEV_PROJECTS: Project[] = [
   {
     id: 'd1',
     title: 'Landing Page Premium',
-    description: 'A comprehensive analytics dashboard for online retailers featuring real-time data visualization using Recharts and Next.js SSR.',
-    technologies: ['Next.js', 'React', 'Tremor', 'Supabase'],
+    description: 'Boost your professional presence, ideal for businesses, services, or advertising campaigns. Fast delivery in 1-2 days.',
+    technologies: ['Bosstrap','Node.js', 'React', 'Html', 'CSS'],
     image: '/src/landingPage.png',
     type: PortfolioMode.DEVELOPER
   },
@@ -41,13 +41,13 @@ export const DEV_PROJECTS: Project[] = [
     id: 'd2',
     title: 'Professional Website',
     description: 'High-conversion landing page with complex framer-motion animations and optimized Core Web Vitals.',
-    technologies: ['React', 'Tailwind', 'Framer Motion'],
+    technologies: ['React', 'Next.js', 'Node.js','TypeScript'],
     image: 'https://picsum.photos/600/400?random=2',
     type: PortfolioMode.DEVELOPER
   },
   {
     id: 'd3',
-    title: 'Task Management API',
+    title: 'Front-End Performance & UX Optimization',
     description: 'RESTful API built with NestJS supporting real-time web-socket updates for team collaboration.',
     technologies: ['Node.js', 'NestJS', 'Docker', 'Redis'],
     image: 'https://picsum.photos/600/400?random=3',

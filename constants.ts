@@ -9,8 +9,8 @@ import { PortfolioMode, Project, Skill, Experience } from './types';
 export const SOCIAL_LINKS = {
   github: "https://github.com/richardluvis",
   linkedin: "https://linkedin.com/in/richadlopez",
-  whatsapp: "https://wa.me/1234567890", 
-  email: "contact@example.com"
+  whatsapp: "https://wa.me/+573167971834", 
+  email: "lopezcard35@gmail.com"
 };
 
 // --- DEVELOPER DATA ---
@@ -40,17 +40,17 @@ export const DEV_PROJECTS: Project[] = [
   {
     id: 'd2',
     title: 'Professional Website',
-    description: 'High-conversion landing page with complex framer-motion animations and optimized Core Web Vitals.',
-    technologies: ['React', 'Next.js', 'Node.js','TypeScript'],
-    image: 'https://picsum.photos/600/400?random=2',
+    description: 'Perfect for businesses or professionals who need a complete online presence, 100% responsive design, social media integration, forms, maps, SEO improvements, etc.',
+    technologies: ['React', 'Next.js', 'Node.js','TypeScript','Boostrap'],
+    image: '/src/webPage.png',
     type: PortfolioMode.DEVELOPER
   },
   {
     id: 'd3',
     title: 'Front-End Performance & UX Optimization',
-    description: 'RESTful API built with NestJS supporting real-time web-socket updates for team collaboration.',
-    technologies: ['Node.js', 'NestJS', 'Docker', 'Redis'],
-    image: 'https://picsum.photos/600/400?random=3',
+    description: 'Technical support for businesses that already have a website, but it´s slow or malfunctioning. We improve user experience (UI/UX), fix bugs, optimize code, and much more.',
+    technologies: [],
+    image: '/src/performance.png',
     type: PortfolioMode.DEVELOPER
   }
 ];
@@ -60,7 +60,7 @@ export const DEV_EXPERIENCE: Experience[] = [
     id: 'de1',
     role: 'Software developer',
     company: 'Accepetrol SAS',
-    period: '2023 - 2024',
+    period: '2023 - 2025',
     description: [
       'Built a responsive web application using HTML5, CSS, AJAX, Node.js and Vite, with a clear folder structure and optimized image assets.',
       'Developed front-end features and asynchronous client-server communication using AJAX and Node.js.',
@@ -91,26 +91,26 @@ export const SYS_SKILLS: Skill[] = [
 export const SYS_PROJECTS: Project[] = [
   {
     id: 'e1',
-    title: 'Hybrid Cloud Migration',
-    description: 'Architected the migration of on-premise infrastructure to AWS, reducing operational costs by 30%.',
-    technologies: ['AWS', 'Terraform', 'Ansible'],
-    image: 'https://picsum.photos/600/400?random=4',
+    title: 'Computer Maintenance & Optimization Service',
+    description: 'Full hardware and software maintenance for personal and business computers. I provide deep system diagnostics, component cleaning, performance tuning, and removal of malware or unnecessary software.',
+    technologies: ['Desktop', 'Laptops'],
+    image: '/src/pc.jpg',
     type: PortfolioMode.ENGINEER
   },
   {
     id: 'e2',
-    title: 'Secure Network Infrastructure',
-    description: 'Designed a zero-trust network architecture for a fintech client, including VPN configuration and firewall rules.',
-    technologies: ['Cisco', 'Palo Alto', 'OpenVPN'],
-    image: 'https://picsum.photos/600/400?random=5',
+    title: 'Printer & Peripheral Setup and Support',
+    description: 'Installation, configuration, and troubleshooting for printers, scanners, and office peripherals. I handle driver setup, wireless configuration, network printer integration, and advanced troubleshooting for errors or connection failures.',
+    technologies: ['Epson', 'Cannon', 'HP'],
+    image: '/src/printer.jpg',
     type: PortfolioMode.ENGINEER
   },
   {
     id: 'e3',
-    title: 'Automated Deployment Pipeline',
-    description: 'Implemented a robust CI/CD pipeline using Jenkins and Kubernetes, reducing deployment time from hours to minutes.',
-    technologies: ['Jenkins', 'Kubernetes', 'Helm'],
-    image: 'https://picsum.photos/600/400?random=6',
+    title: 'Operating System Installation & Configuration',
+    description: 'Professional installation and setup of Windows or Linux systems. This service includes formatting, partition management, driver installation, security hardening, and full system optimization.',
+    technologies: ['Linux', 'Windows', 'Ubunto'],
+    image: '/src/linux.png',
     type: PortfolioMode.ENGINEER
   }
 ];
@@ -119,24 +119,18 @@ export const SYS_EXPERIENCE: Experience[] = [
   {
     id: 'se1',
     role: 'Systems Engineer',
-    company: 'Global Corp',
-    period: '2020 - Present',
+    company: 'Accepetrol SAS',  
+    period: '2023 - Present',
     description: [
-      'Managed 500+ Linux servers across multiple data centers.',
-      'Implemented automated patch management using Ansible.',
-      'Responded to critical incidents ensuring 99.99% uptime.'
-    ],
-    type: PortfolioMode.ENGINEER
-  },
-  {
-    id: 'se2',
-    role: 'Network Administrator',
-    company: 'Local ISP',
-    period: '2018 - 2020',
-    description: [
-      'Configured OSPF and BGP routing protocols.',
-      'Monitored network traffic using Nagios and Zabbix.'
+      'Development and maintenance of internal applications to optimize administrative processes.',
+      'Support in the implementation of management systems and business data analysis',
+      'Troubleshooting technical issues, ensuring system operational continuity.',
+      'Development of solutions using HTML5, JavaScript, Node.js, Vite, Bootstrap, and React.',
+      'Collaboration in development teams following the Scrum methodology.',
+      'Version control management with GitHub.',
+      'Proficient in working with the DOM.'
     ],
     type: PortfolioMode.ENGINEER
   }
+  
 ];

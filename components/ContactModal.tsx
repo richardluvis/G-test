@@ -17,7 +17,7 @@ export const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose, mod
   const [formState, setFormState] = useState({ name: '', message: '' });
 
   const handleWhatsApp = () => {
-    const text = `Hi, I saw your portfolio. I'm ${formState.name}. ${formState.message}`;
+    const text = `Hi, I saw your portfolio. I'm  ${formState.name}. and i ${formState.message}`;
     const url = `${SOCIAL_LINKS.whatsapp}?text=${encodeURIComponent(text)}`;
     window.open(url, '_blank');
   };

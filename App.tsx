@@ -86,7 +86,7 @@ const App: React.FC = () => {
             <p className="text-xl text-slate-400 max-w-2xl mx-auto mb-10 leading-relaxed">
               {isDev 
                 ? "Specialized in front-end development, with strong experience using modern technologies such as React, Next.js, Node.js, Vite, and a wide range of component libraries and UI frameworks. I build high-performance, responsive, and accessible web applications following best practices in software architecture, component modularity, and performance optimization. My approach focuses on creating scalable interfaces with a high level of detail, ensuring maintainability, usability, and long-term product growth for businesses. "
-                : "Expert in Linux systems, Cloud architectures (AWS/Azure), and automated DevOps pipelines. I ensure 99.99% reliability and security."
+                : "Systems Engineer with solid experience in Windows and Linux administration, technical support, and infrastructure maintenance. I specialize in ensuring the stability, security, and performance of enterprise systems through proactive monitoring, incident resolution, and continuous optimization. My background includes managing servers, configuring networks, troubleshooting hardware and software issues, and implementing reliable backup and recovery strategies."
               }
             </p>
 
@@ -208,7 +208,7 @@ const App: React.FC = () => {
       <footer className="bg-slate-900 border-t border-slate-800 py-12 mt-12">
         <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="text-center md:text-left">
-            <h3 className="text-xl font-bold text-white mb-2">Richrard Lopez</h3>
+            <h3 className="text-xl font-bold text-white mb-2">Richard Lopez</h3>
             <p className="text-slate-500 text-sm">
               &copy; {new Date().getFullYear()} {isDev ? 'All rights reserved' : 'Powering the Infrastructure'}.
             </p>

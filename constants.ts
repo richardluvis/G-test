@@ -80,9 +80,9 @@ export const DEV_EXPERIENCE: Experience[] = [
 // --- ENGINEER DATA ---
 
 export const SYS_SKILLS: Skill[] = [
-  { name: 'Cumputers', level: 90, category: 'tools' },
+  { name: 'Computers', level: 90, category: 'tools' },
   { name: 'Printers', level: 75, category: 'tools' },
-  { name: 'Sistems', level: 80, category: 'tools' },
+  { name: 'Systems', level: 80, category: 'tools' },
 ];
 
 export const SYS_PROJECTS: Project[] = [
